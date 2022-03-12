@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 414px;
+    font-family: 'Roboto Slab', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+    background-color: darkgoldenrod;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    background-color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.orangeFont {
+    color: rgb(247, 204, 92);
 }
 
-.App-link {
-  color: #61dafb;
+.orangeBackground {
+    background-color: rgb(247, 204, 92);
+    color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+    text-decoration: none;
+}
+
+i {
+    color: rgb(247, 204, 92);
+}
+
+.mainSection {
+    padding: 20px;
+}
+
+.allBeerSetion {
+    padding-bottom: 50px;
+}
+
+.BeerDetails {
+    padding-bottom: 100px;
+}
+
+footer {
+    padding: 3px 0;
+    position: fixed;
+    bottom: 0;
+    height: 65px;
+    width: 100vw;
+    background-color: rgb(247, 204, 92);
+    display: block;
+    text-align: center;
 }
