@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 414px;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -12,6 +11,8 @@ html {
 }
 
 body {
+    display: grid;
+    justify-content: center;
     background-color: white;
 }
 
